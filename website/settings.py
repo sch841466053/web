@@ -25,7 +25,7 @@ SECRET_KEY = '6wwz2nl4(tum$xx&wi+@m)o&8t!i16=kgr*r_xy)ui#n%$wx0%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'website.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'templates')],
+        'DIRS': [os.path.join(BASE_DIR,'dist')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -130,7 +130,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATICFILES_DIRS = [
+os.path.join(BASE_DIR, "dist/static"),
+]
 
 CACHES = {
     "default": {
@@ -162,15 +164,11 @@ REST_FRAMEWORK = {
 }
 
 
-AUTHENTICATION_BACKENDS = (
+# AUTHENTICATION_BACKENDS = (
+#
+#     # 'social_core.backends.weixin.WeixinOAuth2',         # 使用微信登录
+#     'social_core.backends.weibo.WeiboOAuth2',         # 使用微博登录
+#     # 'social_core.backends.qq.QQOAuth2',                 # 使用QQ登录
+#     # 'django.contrib.auth.backends.ModelBackend',        # 指定django的ModelBackend类
+# )
 
-    # 'social_core.backends.weixin.WeixinOAuth2',         # 使用微信登录
-    'social_core.backends.weibo.WeiboOAuth2',         # 使用微博登录
-    # 'social_core.backends.qq.QQOAuth2',                 # 使用QQ登录
-    # 'django.contrib.auth.backends.ModelBackend',        # 指定django的ModelBackend类
-)
-
-SOCIAL_AUTH_WEIBO_KEY = '805676869'
-SOCIAL_AUTH_WEIBO_SECRET = 'ac5b0e4eeaf6a3a434354476b893dd1a'
-
-SOCIAL_AUTH_LOGIN_REDIRECT_URL = '/index/'
