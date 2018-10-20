@@ -163,7 +163,7 @@
         <counts>
           <entry key="auth_user" value="2" />
           <entry key="html" value="2" />
-          <entry key="js" value="2" />
+          <entry key="js" value="3" />
           <entry key="my_site_comments" value="7" />
           <entry key="my_site_goods" value="2" />
           <entry key="my_site_goodscategory" value="9" />
@@ -183,7 +183,7 @@
         <counts>
           <entry key="Database Element" value="39" />
           <entry key="HTML" value="2" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="76" />
           <entry key="Scratch" value="1" />
@@ -197,7 +197,7 @@
         <entry file="file://$PROJECT_DIR$/website/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="157">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#641#682#0" expanded="true" />
               </folding>
@@ -205,13 +205,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1247">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/static/js/app.9dbbb4a2b6895030a629.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -306,6 +311,12 @@
               <item name="website" type="b2602c69:ProjectViewProjectNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="website" type="b2602c69:ProjectViewProjectNode" />
@@ -487,6 +498,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -835,9 +847,6 @@
     <entry file="file://$PROJECT_DIR$/dist/dist/static/js/app.9dbbb4a2b6895030a629.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/static/js/app.9dbbb4a2b6895030a629.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_site/views/course.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1624">
@@ -858,7 +867,7 @@
     <entry file="file://$PROJECT_DIR$/website/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#641#682#0" expanded="true" />
           </folding>
@@ -871,6 +880,9 @@
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/app.9dbbb4a2b6895030a629.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
