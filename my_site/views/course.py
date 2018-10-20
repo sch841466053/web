@@ -60,7 +60,7 @@ from utils.weibo_sdk import APIClient
 
 APP_KEY = "2503730139"
 APP_SECRET = "bcac17f961b0d1f5f4c12cd57a015173"
-CALLBACK_URL = 'http://47.106.153.44:8000/callback/'
+CALLBACK_URL = 'http://47.106.153.44:8001/callback/'
 client = APIClient(app_key=APP_KEY, app_secret=APP_SECRET, redirect_uri=CALLBACK_URL)
 
 class WeiBoLogin(APIView):
@@ -82,6 +82,6 @@ def Callback(request):
     print(user,token)
     # models.UserToken.objects.update_or_create(user=obj, defaults={"token": token})
     # ret["token"] = token
-    return redirect("http://47.106.153.44:8000/index/")
+    return redirect("http://47.106.153.44:8001/index/")
 
 
