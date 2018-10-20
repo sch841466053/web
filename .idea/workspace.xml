@@ -138,12 +138,13 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -178,6 +179,7 @@
           <entry key="social_auth_partial" value="2" />
           <entry key="social_auth_usersocialauth" value="4" />
           <entry key="sql" value="1" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -185,6 +187,7 @@
           <entry key="Database Element" value="39" />
           <entry key="HTML" value="2" />
           <entry key="JavaScript" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="76" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -196,25 +199,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
+            <state relative-caret-position="638">
               <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="61">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-257" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_site/views/course.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
+            <state relative-caret-position="1624">
               <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -301,6 +311,10 @@
               <item name="website" type="b2602c69:ProjectViewProjectNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -468,8 +482,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19839142" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -483,7 +498,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.7577904" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3371105" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067025" side_tool="true" weight="0.39321074" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -524,7 +539,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils/VoiceVerify.py" />
     <entry file="file://$PROJECT_DIR$/utils/CCPRestSDK.py" />
     <entry file="file://$PROJECT_DIR$/utils/pay.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -790,9 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,16 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1566">
           <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
-          <folding>
-            <element signature="e#776#796#0" />
-            <element signature="e#833#919#0" />
-            <element signature="e#1795#2104#0" />
-            <marker date="1539858037981" expanded="false" signature="88:93" ph="..." />
-            <marker date="1539858037981" expanded="true" signature="953:1083" ph="..." />
-            <marker date="1539858037981" expanded="true" signature="1118:1119" ph="..." />
-            <marker date="1539858037981" expanded="false" signature="1284:1289" ph="..." />
-            <marker date="1539858037981" expanded="true" signature="2136:2141" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,24 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5713">
           <caret line="223" selection-start-line="223" selection-end-line="223" />
-          <folding>
-            <element signature="e#301#312#0" expanded="true" />
-            <element signature="e#377#517#0" />
-            <element signature="e#550#912#0" />
-            <element signature="e#942#1153#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_site/views/course.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#1101#1822#0" />
-            <marker date="1540002824691" expanded="true" signature="2195:2343" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -842,21 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="206" column="20" selection-start-line="206" selection-start-column="20" selection-end-line="206" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <element signature="e#1573#3000#0" />
-            <marker date="1539863445523" expanded="false" signature="372:377" ph="..." />
-            <marker date="1539863445523" expanded="true" signature="953:958" ph="..." />
-            <marker date="1539863445523" expanded="false" signature="3108:3113" ph="..." />
-            <marker date="1539863445523" expanded="true" signature="6801:6810" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -866,11 +834,35 @@
     <entry file="file://$PROJECT_DIR$/dist/static/js/app.9dbbb4a2b6895030a629.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_site/views/course.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1624">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#1101#1822#0" />
+            <marker date="1540002824691" expanded="true" signature="2195:2343" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/website/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="61">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257" />
       </provider>
     </entry>
   </component>
