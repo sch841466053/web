@@ -82,6 +82,6 @@ def Callback(request):
     print(user,token)
     # models.UserToken.objects.update_or_create(user=obj, defaults={"token": token})
     # ret["token"] = token
-    return redirect("http://127.0.0.1:8080/index/")
+    return redirect("http://47.106.153.44:8000/index/")
 
 
